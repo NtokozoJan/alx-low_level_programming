@@ -7,21 +7,23 @@
 
 int main(void)
 {
-	int n;
-	unsigned long fibon1 = 0, fibon2 = 1, sum;
+	long int a, b, c, after;
 
-	for (n = 0; n < 50; n++)
+	b = 1;
+	c = 2;
+
+	for (a = 1; a <= 50; a++)
 	{
-		sum = fibon1 + fibon2;
-		printf("%lu", sum);
-
-		fibon1 = fibon2;
-		fibon2 = sum;
-
-		if (n == 49)
-			printf("\n");
-		else
-			printf(",");
+		if (b != 20365011074)
+		{
+			printf("%ld, ", b);
+		} else
+		{
+			printf("%ld\n", b);
+		}
+		after = b + c;
+		b = c;
+		c = after;
 	}
 	return (0);
 }
