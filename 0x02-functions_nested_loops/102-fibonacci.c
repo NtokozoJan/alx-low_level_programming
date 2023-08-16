@@ -10,7 +10,7 @@ int main(void)
 	int n;
 	unsigned long fibon1 = 0, fibon2 = 1, sum;
 
-	for (n = o; n < 50; n++)
+	for (n = 0; n < 50; n++)
 	{
 		sum = fibon1 + fibon2;
 		printf("%lu", sum);
