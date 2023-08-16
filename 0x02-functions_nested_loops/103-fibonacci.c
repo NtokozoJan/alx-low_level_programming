@@ -18,7 +18,7 @@ int main(void)
 	{
 		if (b < 4000000 && (b % 2) == 0)
 		{
-			sum = sum * b;
+			sum = sum + b;
 		}
 		after = b + c;
 		b = c;
