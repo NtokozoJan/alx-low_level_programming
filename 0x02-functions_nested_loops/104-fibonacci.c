@@ -19,8 +19,8 @@ int main(void)
 
 		if (a < 97)
 			printf(", ");
-		a++;
+		++a;
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
