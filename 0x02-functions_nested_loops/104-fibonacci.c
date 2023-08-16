@@ -21,6 +21,6 @@ int main(void)
 			printf(", ");
 		a++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
