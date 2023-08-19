@@ -4,7 +4,7 @@
 /**
  * print_remaining_days -  determines how many days are left in the year
  * @month: months
- * @day: days 
+ * @day: days
  * @year: years
  * Return: 0
  */
