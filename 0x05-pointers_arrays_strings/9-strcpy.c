@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-char *_strcpy(char *src, char *dest)
+char *_strcpy(char *dest, char *src)
 {
 	int a = -1;
 
